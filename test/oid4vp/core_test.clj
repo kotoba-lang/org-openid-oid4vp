@@ -1,5 +1,5 @@
 (ns oid4vp.core-test
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [clojure.test :refer [deftest is testing]]
             [oid4vp.core :as oid4vp]))
 

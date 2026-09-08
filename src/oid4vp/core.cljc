@@ -39,7 +39,7 @@
    successful `validate-response` as \"the Wallet answered the query\".
 
    Reference: https://openid.net/specs/openid-4-verifiable-presentations-1_0.html"
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def response-type "vp_token")
 
