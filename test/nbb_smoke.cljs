@@ -10,7 +10,7 @@
 ;;
 ;;   nbb --classpath src:test test/nbb_smoke.cljs
 (ns nbb-smoke
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [oid4vp.core :as oid4vp]))
 
 (def ^:private failures (atom 0))
