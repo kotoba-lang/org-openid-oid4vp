@@ -106,7 +106,7 @@ exception: a Wallet replying to the wrong session is an ordinary thing to happen
 ```bash
 clojure -M:test                              # JVM
 clojure -M:lint
-nbb --classpath src test/nbb_smoke.cljs      # the :cljs branch
+nbb --classpath src test/nbb_smoke.cljk      # the :cljs branch
 ```
 
 The `:cljs` branch needs its own run. The one reader conditional is `form-encode`,

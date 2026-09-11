@@ -8,7 +8,7 @@
 ;; parse differently depending on which host built it, so the disagreement is
 ;; asserted here rather than assumed away.
 ;;
-;;   nbb --classpath src:test test/nbb_smoke.cljs
+;;   nbb --classpath src:test test/nbb_smoke.cljk
 (ns nbb-smoke
   (:require [kotoba.lang.text :as str]
             [oid4vp.core :as oid4vp]))

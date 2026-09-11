@@ -28,4 +28,4 @@ jobs:
         with:
           node-version: '22'
       - run: npm install -g nbb
-      - run: nbb --classpath src test/nbb_smoke.cljs
+      - run: nbb --classpath src test/nbb_smoke.cljk
