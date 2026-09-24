@@ -1,6 +1,6 @@
 (ns oid4vp.core-test
   (:require [kotoba.lang.text :as str]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [oid4vp.core :as oid4vp]))
 
 ;; 22 characters: 128 bits of base64url, the floor §5.3 sets for `state`.
